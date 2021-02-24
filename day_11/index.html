@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+
+  <body>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-2">
+          <div>
+            <h3 class="text-center colorMe">ID</h3>
+            <hr />
+            <div class="snoData"></div>
+          </div>
+        </div>
+        <div class="col-4">
+          <h3 class="text-center colorMe1">Name</h3>
+          <hr />
+          <div class="name"></div>
+        </div>
+        <div class="col-5">
+          <h3 class="text-center colorMe2">Actions</h3>
+          <hr />
+          <div class="tbtn text-center"></div>
+        </div>
+       
+        <div class="col-1">
+            <button type="button" class="btn btn-warning addUser">Add User</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
